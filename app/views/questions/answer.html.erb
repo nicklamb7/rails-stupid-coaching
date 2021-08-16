@@ -1,0 +1,12 @@
+<main>
+  <div class="question__text">
+    <p>This is the answer to your question</p>
+  </div>
+  <div class="question__box">
+    <p>Your question:</p>
+    <p>> <em><%= @questions %></em></p>
+    <p>This is the answer:</p>
+    <p>> <em><%= @answer %></em></p>
+  </div>
+  <p><%= link_to "Ask", ask_path, class: "question__links"  %></p>
+</main>
